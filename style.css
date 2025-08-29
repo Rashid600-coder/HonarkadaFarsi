@@ -42,3 +42,17 @@ body {
   font-size: 4rem; /* سایز بزرگتر */
 
 }
+@font-face {
+  font-family: 'IranNastaliq';
+  src: url('fonts/IranNastaliq.woff2') format('woff2'),
+       url('fonts/IranNastaliq.woff') format('woff'),
+       url('fonts/IranNastaliq.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nastaliq {
+  font-family: 'IranNastaliq', serif;
+}
+
+
